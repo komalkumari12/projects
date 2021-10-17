@@ -1,0 +1,296 @@
+#container1 {
+  position: relative;
+  height: 500px;
+  width: 320px;
+  background-color: rgba(0, 0, 0, 0.671);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+}
+
+.box1,
+.box2,
+.box3,
+.box4,
+.box5,
+.box6,
+.box7,
+.box8,
+.box9,
+.box0 {
+  width: 80px;
+  height: 50px;
+  background-color: black;
+  color: white;
+}
+
+.symbol1,
+.symbol2,
+.symbol3,
+.symbol4,
+.symbol5,
+.symbol6,
+.symbol7,
+.symbol8,
+.symbol9,
+.symbol10 {
+  width: 80px;
+  height: 50px;
+  background-color: black;
+  color: white;
+}
+
+.exbox1,
+.exbox2,
+.exbox3,
+.exbox4 {
+  width: 80px;
+  height: 50px;
+  background-color: black;
+  color: white;
+}
+
+.top1,
+.top2,
+.top6 {
+  position: relative;
+  height: 30px;
+  width: 53.33px;
+  color: grey;
+  background-color: rgba(0, 0, 0, 0.747);
+}
+
+.top3,
+.top4,
+.top5 {
+  position: relative;
+  height: 30px;
+  width: 53.33px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.747);
+}
+
+.box0 {
+  position: absolute;
+  top: 450px;
+  left: 80px;
+  text-align: center;
+}
+
+.box1 {
+  position: absolute;
+  top: 400px;
+  left: 0px;
+  text-align: center;
+}
+
+.box2 {
+  position: absolute;
+  top: 400px;
+  left: 80px;
+  text-align: center;
+}
+
+.box3 {
+  position: absolute;
+  top: 400px;
+  left: 160px;
+  text-align: center;
+}
+
+.box4 {
+  position: absolute;
+  top: 350px;
+  left: 0px;
+  text-align: center;
+}
+
+.box5 {
+  position: absolute;
+  top: 350px;
+  left: 80px;
+  text-align: center;
+}
+
+.box6 {
+  position: absolute;
+  top: 350px;
+  left: 160px;
+  text-align: center;
+}
+
+.box7 {
+  position: absolute;
+  top: 300px;
+  left: 0px;
+  text-align: center;
+}
+
+.box8 {
+  position: absolute;
+  top: 300px;
+  left: 80px;
+  text-align: center;
+}
+
+.box9 {
+  position: absolute;
+  top: 300px;
+  left: 160px;
+  text-align: center;
+}
+
+.symbol1 {
+  position: absolute;
+  top: 450px;
+  left: 0px;
+  text-align: center;
+}
+
+.symbol2 {
+  position: absolute;
+  top: 450px;
+  left: 160px;
+  text-align: center;
+}
+
+.symbol3 {
+  position: absolute;
+  top: 450px;
+  left: 240px;
+  text-align: center;
+}
+
+.symbol4 {
+  position: absolute;
+  top: 400px;
+  left: 240px;
+  text-align: center;
+}
+
+.symbol5 {
+  position: absolute;
+  top: 350px;
+  left: 240px;
+  text-align: center;
+}
+
+.symbol6 {
+  position: absolute;
+  top: 300px;
+  left: 240px;
+  text-align: center;
+}
+
+.symbol7 {
+  position: absolute;
+  top: 250px;
+  left: 240px;
+  text-align: center;
+}
+
+.symbol8 {
+  position: absolute;
+  top: 250px;
+  left: 160px;
+  text-align: center;
+}
+
+.symbol9 {
+  position: absolute;
+  top: 250px;
+  left: 80px;
+  text-align: center;
+}
+
+.symbol10 {
+  position: absolute;
+  top: 250px;
+  left: 0px;
+  text-align: center;
+}
+
+.exbox1 {
+  position: absolute;
+  top: 200px;
+  left: 0px;
+  text-align: center;
+}
+
+.exbox2 {
+  position: absolute;
+  top: 200px;
+  left: 80px;
+  text-align: center;
+}
+
+.exbox3 {
+  position: absolute;
+  top: 200px;
+  left: 160px;
+  text-align: center;
+}
+
+.exbox4 {
+  position: absolute;
+  top: 200px;
+  left: 240px;
+  text-align: center;
+}
+
+.top1{
+  position: absolute;
+  top: 170px;
+  left: 0px;
+  text-align: center;
+}
+
+.top2{
+    position: absolute;
+    top: 170px;
+    left: 53.33px;
+    text-align: center;
+  }
+
+  .top3{
+    position: absolute;
+    top: 170px;
+    left: 106.66px;
+    text-align: center;
+  }
+
+  .top4{
+    position: absolute;
+    top: 170px;
+    left: 159.99px;
+    text-align: center;
+  }
+
+  .top5{
+    position: absolute;
+    top: 170px;
+    left: 213.32px;
+    text-align: center;
+  }
+
+  .top6{
+    position: absolute;
+    top: 170px;
+    left: 266.65px;
+    text-align: center;
+  }
+
+  .standard{
+      color: white;
+      padding-left: 15px;
+      padding-top: 6px;
+      padding-bottom: 2px;
+      margin-bottom: 2px;
+  }
+
+  .displaybox{
+      height: 137px;
+      width: 310px;
+      margin-left: 5px;
+      background-color: rgba(0, 0, 0, 0.603);
+  }

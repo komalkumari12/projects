@@ -1,0 +1,91 @@
+*{
+   background-color: #313B47;
+}
+
+#A{
+    margin: auto;
+}
+.box1{
+    margin: auto;
+    height:100px ;
+    width: 100px;
+    border: 8px solid whitesmoke;
+    border-radius: 20%;
+    position: absolute;
+    left: 42%;
+    animation: ani_name 4s linear 0.2s infinite normal;
+}
+
+p{
+    height: 300px;
+}
+.box2{
+    
+    margin: auto;
+    margin-left: 50%;
+    height:100px ;
+    width: 100px;
+    border: 8px solid whitesmoke;
+    border-radius: 50%;
+    position: relative;
+    animation: ani_name 4s linear 0.2s infinite normal;
+}
+
+@keyframes ani_name{
+    0%{
+        transform: scale(0.4);
+        border-radius:50% ;
+    }
+    15%{
+        border-radius:35% ;
+    }
+    25%{
+        border-radius: 20%;
+    }
+    40%{
+        border-radius: 20%;
+        transform: rotate(10deg);
+    }
+    50%{
+        border-radius: 20%;
+        transform: rotate(30deg);
+    }
+    60%{
+        border-radius: 20%;
+        transform: rotate(60deg);
+    }
+    65%{
+        border-radius: 20%;
+        transform: rotate(100deg);
+    }
+    70%{
+        border-radius: 20%;
+        transform: rotate(140deg); 
+    }
+    75%{
+        border-radius: 20%;
+        transform: rotate(180deg); 
+    }
+    80%{
+        border-radius: 20%;
+        transform: rotate(220deg); 
+    }
+    85%{
+        border-radius: 20%;
+        transform: rotate(270deg); 
+    }
+    90%{
+        border-radius: 20%;
+        transform: rotate(320deg); 
+    }
+    95%{
+        border-radius: 20%;
+        transform: rotate(360deg); 
+    }
+    100%{
+      border-radius: 50%;
+      transform: scale(0.4);
+    }
+   
+
+}
